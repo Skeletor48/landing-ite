@@ -24,19 +24,19 @@
     transition: all 0.3s ease-out;
 }
 
-.btn-medium {
+.btn--medium {
     padding: 8px 20px;
     font-size: 20px;
 }
 
-.btn-large {
+.btn--large {
     padding: 12px 16;
     font-size: 20px;
 }
 
-
-.btn--medium:hover, btn--large:hover{
+.btn--large:hover,
+.btn--medium:hover {
     background: #fff;
     color: #24242424;
-    transition: 250ms;
+    transition: all 0.3s ease-out;
 }
