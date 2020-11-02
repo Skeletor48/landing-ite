@@ -6,7 +6,7 @@
 }
 
 .home,
-.services,.products,
+.services,.projects,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -24,8 +24,8 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url('/images/img-1.jpg');
+.projects {
+  /* background-image: url('/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@
 }
 
 .sign-up {
-  background-image: url('/images/img-8.jpg');
+  /* background-image: url('/images/img-8.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
