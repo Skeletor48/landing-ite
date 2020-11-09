@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <div className="hero-container">
       <video src={video} autoPlay loop muted />
-      <h1> Code for coffe and food</h1>
+      <h1> Code for coffe and fun</h1>
       <p>Are you interested?</p>
       <div className="hero-btns">
         <Button
