@@ -15,13 +15,14 @@ export default function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large">
-          GET STARTED
+          ABOUT ME
         </Button>
         <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large">
-          WATCH TRAILER<i className='far fa-play-circle' />
+          PROJECTS
+          {/* <i className='far fa-play-circle' /> */}
         </Button>
       </div>
     </div>

@@ -18,13 +18,13 @@ export default function Cards() {
                             src={pic1}
                             text='Fancy card carousel'
                             label='HTML + CSS'
-                            path='/services'
+                            path='/projects'
                         />
                         <CardItem
                             src={pic2}
                             text='A secret server. Which stores.. ohm well...secrets'
                             label='Vue,Node,Mongo'
-                            path='/services'
+                            path='/projects'
                         />
                     </ul>
                     <ul className='cards__items'>
@@ -33,19 +33,19 @@ export default function Cards() {
                             text='A Light web crawler app that stoles 
                             the daily menu data from a restaurant'
                             label='React,Node'
-                            path='/services'
+                            path='/projects'
                         />
                         <CardItem
                             src={pic4}
                             text='Just another Covid-19 tracker'
                             label='React'
-                            path='/services'
+                            path='/projects'
                         />
                         <CardItem
                             src={pic5}
                             text='Comming soon...'
                             label='React, Firebase'
-                            path='/services'
+                            path='/projects'
                         />
                     </ul>
                 </div>

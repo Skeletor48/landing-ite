@@ -6,12 +6,11 @@ import "./Footer.css";
 export default function Footer() {
     return (
         <div className='footer-container'>
-            <section className='footer-subscription'>
+            {/* <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
                     I wont send you nothing, but here you can subscribe.
                 </p>
                 <p className='footer-subscription-text'>
-                    {" "}
                     But you can unsubscribe
                 </p>
                 <div className='input-areas'>
@@ -25,8 +24,8 @@ export default function Footer() {
                         <Button buttonStyle='btn--outline'>Subscribe</Button>
                     </form>
                 </div>
-            </section>
-            <div className='footer-links'>
+            </section> */}
+            {/* <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>About Us</h2>
@@ -60,51 +59,56 @@ export default function Footer() {
                         <Link to='/'>Twitter</Link>
                     </div>
                 </div>
-            </div>
-            <section class='social-media'>
-                <div class='social-media-wrap'>
-                    <div class='footer-logo'>
+            </div> */}
+            <section className='social-media'>
+                <div className='social-media-wrap'>
+                    <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
                             SKLTR48  &nbsp;
-                            <i class='fas fa-skull' />
+                            <i className='fas fa-skull' />
                         </Link>
                     </div>
-                    <small class='website-rights'>Skeletor48 © 2020</small>
-                    <div class='social-icons'>
+                    <small className='website-rights'>Skeletor48 © 2020</small>
+                    <div className='social-icons'>
                         <a
-                            class='social-icon-link facebook'
+                            className='social-icon-link facebook'
                             href='https://m.me/mihaly.banfi.5'
                             target='_blank'
+                            rel="noopener noreferrer"
                             aria-label='Facebook'>
-                            <i class='fab fa-facebook-messenger' />
+                            <i className='fab fa-facebook-messenger' />
                         </a>
                         <a
-                            class='social-icon-link instagram'
+                            className='social-icon-link instagram'
                             href='https://www.instagram.com/cuarenta_y_ocho/'
                             target='_blank'
+                            rel="noopener noreferrer"
                             aria-label='Instagram'>
-                            <i class='fab fa-instagram' />
+                            <i className='fab fa-instagram' />
                         </a>
                         <a
-                            class='social-icon-link youtube'
+                            className='social-icon-link youtube'
                             href='https://gitlab.com/Skeletor48'
                             target='_blank'
+                            rel="noopener noreferrer"
                             aria-label='Youtube'>
-                            <i class='fab fa-gitlab' />
+                            <i className='fab fa-gitlab' />
                         </a>
                         <a
-                            class='social-icon-link twitter'
+                            className='social-icon-link twitter'
                             href='https://github.com/Skeletor48'
                             target='_blank'
+                            rel="noopener noreferrer"
                             aria-label='Twitter'>
-                            <i class='fab fab fa-github' />
+                            <i className='fab fab fa-github' />
                         </a>
                         <a
-                            class='social-icon-link linkedin'
+                            className='social-icon-link linkedin'
                             href='https://www.linkedin.com/in/mihaly-banfi-22962986/'
                             target='_blank'
+                            rel="noopener noreferrer"
                             aria-label='LinkedIn'>
-                            <i class='fab fa-linkedin' />
+                            <i className='fab fa-linkedin' />
                         </a>
                     </div>
                 </div>
